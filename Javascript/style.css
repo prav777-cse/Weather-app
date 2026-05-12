@@ -1,0 +1,79 @@
+
+
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(tree-desert-white-clouds-daytime.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.weatherform{
+    margin: 20px;
+}
+.cityinput{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+
+
+}
+
+button{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 10px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+button:hover{
+    background-color: rgb(3, 185, 3);
+}
+
+.card{
+    background: linear-gradient(180deg,rgb(10, 175, 252),rgb(255, 190, 49));
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+}
+.weatheremoji{
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 7em;
+}
+.descdisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.errordisplay{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+@media(width:500px){
+    button{
+    position: unset;
+        width: 70%;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 11px;
+        padding: 15px;
+    }
+}
